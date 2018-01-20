@@ -253,3 +253,24 @@ footer {
 	border-top: #4aaaa5 7px solid;
 	box-sizing: border-box; /* BOX SIZE ISN'T AFFECTED BY PADDING OR BORDER */
 }
+
+@media only screen and (max-width: 980px) {
+    body {
+		background-image: none;
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-image: none;
+		background-color: black;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	body {
+		background-image: none;
+		background-color: yellow;
+	}
+}
